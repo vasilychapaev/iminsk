@@ -1,0 +1,10 @@
+﻿.ui-block-a, .ui-block-b, .ui-block-c {
+	/*background-color: #eee;*/
+	border-top: 1px solid lightgray;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.ui-block-a, .ui-block-c {
+	font-weight: bold;
+}

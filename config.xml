@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "by.e95.minsk"
+        versionCode = "1" 
+        version     = "20140118" >
+
+	    <name>Minsk guide Bel.biz</name>
+	    <description>
+[EN] Minsk - guide to the capital of Belarus, Minsk. 
+You will learn city, main attractions, which Belarusian goods are worth to buy and where to do it, try Belarusian cuisine, where and how to spend leisure time. 
+
+The application discloses this topics: 
+- Cultural attractions 
+- Shopping centers 
+- Cafe with Belarusian cuisine 
+- What souvenirs to bring back from Minsk 
+- Basic phrases dictionary (English-Russian) 
+- Phones taxi 
+- Hotels
+
+------------------
+[RU]
+Минск - путеводитель по столице Беларуси, город Минск.
+Вы познакомитесь с городом, узнаете основные достопримечательности, какие белорусские товары стоит купить и где это сделать, где попробовать белорусскую кухню и как провести досуг.
+
+В приложении раскрыты темы:
+- культурные достопримечательности
+- торговые центры
+- кафе с белорусской кухней
+- какие сувениры привезти из Минска
+- словарик основных фраз (английско-русский)
+- телефоны такси
+- отели
+
+
+	    </description>
+	    <author href="http://e95.by" email="vasilychapaev@gmail.com">Vasily Chapaev</author>
+
+
+	    <preference name="phonegap-version" value="3.1.0" />
+	    <icon src="img/app_icon.png" />
+	    	    
+	    <gap:platform name="android" />
+	    
+
+	</widget>
