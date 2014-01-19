@@ -39,7 +39,7 @@ The application discloses this topics:
 
 
 	    <preference name="phonegap-version" value="3.1.0" />
-	    <icon src="img/app_icon.png" />
+	    <icon src="img/app_icon_128.jpg" />
 	    	    
 	    <gap:platform name="android" />
 	    
