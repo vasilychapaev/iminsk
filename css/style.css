@@ -1,10 +1,30 @@
-﻿.ui-block-a, .ui-block-b, .ui-block-c {
+/* table pseudo */
+.ui-block-a, .ui-block-b, .ui-block-c {
 	/*background-color: #eee;*/
 	border-top: 1px solid lightgray;
 	margin-top: 10px;
-	padding-top: 10px;
+	padding-top: 10px;}
+.ui-block-a, .ui-block-c {font-weight: bold;}
+
+
+
+
+
+.ui-page, .ui-content, .ui-btn {
+	/*opacity: 0.5;*/
+	background-color: transparent !important;
 }
 
-.ui-block-a, .ui-block-c {
-	font-weight: bold;
+
+#home {
+    background-image: url(../img/hotel_minsk.jpg);
+	background-size: contain;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+#cafes {
+    background-image: url(../img/cafe_batleika.jpg) !important;
+    background-position: right bottom;
+    background-repeat: no-repeat;
 }
