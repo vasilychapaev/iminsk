@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
 	<meta charset="utf-8">
 	<title>Minsk guide</title>
@@ -20,17 +20,19 @@
 			<li><a href="#cafes"> <img src="img/icon_cafe.png" class="ui-li-icon">Cafes</a></li>
 			<li><a href="#bringing"> <img src="img/icon_list.png" class="ui-li-icon">What is worth bringing from Minsk</a></li>
 			<li><a href="#phrasebook"><img src="img/icon_book.png" class="ui-li-icon">Mini-phrasebook</a></li>
-			<li><a href="#info"> <img src="img/icon_taxi.png" class="ui-li-icon">Useful information</a></li>
+			<li><a href="#taxi"> <img src="img/icon_taxi.png" class="ui-li-icon">Taxi service</a></li>
 			<li><a href="#hotels"> <img src="img/icon_hotel.png" class="ui-li-icon">Hotels</a></li>
-			<li><a href="#belbiz"> <img src="img/icon_info.png" class="ui-li-icon">Bel.biz team's contacts</a></li>
+			<li><a href="#about"> <img src="img/icon_info.png" class="ui-li-icon">Bel.biz team's contacts</a></li>
 		</ul>
-
 	</section>
+	<footer></footer>
 </div>
 
 
 <div data-role="page" id="advise">
-	<header data-role="header"><h1>We advise to visit</h1></header>
+	<header data-role="header">
+		<a href="#" data-rel="back" data-icon="home" data-iconpos="notext">home</a>
+		<h1>We advise to visit</h1></header>
 	<section data-role="content">
 		<ul data-role="listview" data-split-icon="gear">
 			<li>
@@ -64,77 +66,95 @@
 			</li>
 		</ul>
 	</section>
+	<footer></footer>
 </div>
 
 <div data-role="page" id="shopping">
 	<header data-role="header">
+		<a href="#" data-rel="back" data-icon="home" data-iconpos="notext">home</a>
 		<h1>Shopping centers</h1></header>
-		<section data-role="content">
-			<ul data-role="listview" data-split-icon="gear">
-				<li>
-					<h2>STOLITSA</h2>
-					<p><strong>Nezavisimost sq.</strong>, subway station &quot;Ploscha Lenina&quot;, next to Minsk hotel, 5 min from Imaguru startup hub</p>
-					<p>A wide selection of clothes, footwear, cosmetics and household goods.</p>
-					<p>Working hours: open from M-Sa 10am-10pm</p>
-				</li>
-				<li>
-					<h2>GUM</h2>
-					<p><strong>Nezavisimost Ave-21</strong>, subway station &quot;Kastrychnitskaya&quot;</p>
-				</li>
-				<li>
-					<h2>TSUM</h2>
-					<p><strong>Nezavisimost Ave-54</strong>, subway station &quot;Ploscha Yacuba Kolasa&quot;</p>
-					<p>Belarusian items: clothes, footwear, cosmetics and household goods.</p>
-					<p>The stores features a cafe, bar and children's room. Gift wrapping service and fabric cutting available. ATMs and currency exchange on site.</p>
-					<p>Working hours: open from M-Sa 9am-9pm and Su 9am-8pm</p>
-				</li>
-			</ul>
-		</section>
+	<section data-role="content">
+		<ul data-role="listview" data-split-icon="gear">
+			<li>
+				<img src="img/thumb_stolitsa.jpg" class="listthumb">
+				<h2>STOLITSA</h2>
+				<p><strong><a href="https://maps.google.com/maps?ll=53.895653,27.54795">Nezavisimosti sq.</a></strong>, subway station &quot;Ploscha Lenina&quot;, next to Minsk hotel, 5 min from Imaguru startup hub</p>
+				<p>A wide selection of clothes, footwear, cosmetics and household goods.</p>
+				<p>Working hours: open from M-Sa 10am-10pm</p>
+			</li>
+			<li>
+				<img src="img/thumb_gum.jpg" class="listthumb">
+				<h2>GUM</h2>
+				<p><strong><a href="https://maps.google.com/maps?ll=53.900495,27.557852">Nezavisimosti Ave-21</a></strong>, subway station &quot;Kastrychnitskaya&quot;</p>
+			</li>
+			<li>
+				<img src="img/thumb_tsum.jpg" class="listthumb">
+				<h2>TSUM</h2>
+				<p><strong><a href="https://maps.google.com/maps?ll=53.916264,27.586005">Nezavisimosti Ave-54</a></strong>, subway station &quot;Ploscha Yacuba Kolasa&quot;</p>
+				<p>Belarusian items: clothes, footwear, cosmetics and household goods.</p>
+				<p>The stores features a cafe, bar and children's room. Gift wrapping service and fabric cutting available. ATMs and currency exchange on site.</p>
+				<p>Working hours: open from M-Sa 9am-9pm and Su 9am-8pm</p>
+			</li>
+		</ul>
+	</section>
+	<footer></footer>
 </div>
 
 
 <div data-role="page" id="cafes">
-	<header data-role="header"><h1>Cafes</h1></header>
+	<header data-role="header">
+		<a href="#" data-rel="back" data-icon="home" data-iconpos="notext">home</a>
+		<h1>Cafes</h1></header>
 	<section data-role="content">
 		<ul data-role="listview" data-split-icon="gear">
 			<li>
+				<img src="img/thumb_talaka.jpg" class="listthumb">
 				<h2>Talaka</h2>
-				<p><strong>Rakovskaya str.18</strong></p>
+				<p><strong><a href="https://maps.google.com/maps?ll=53.904635,27.549044">Rakovskaya str.18</a></strong></p>
 				<p>Belarusian cuisine.</p>
 				<p>Working hours: open from M-Su 10 am-6am</p>
 			</li>
 			<li>
+				<img src="img/thumb_vasilki.jpg" class="listthumb">
 				<h2>Vasilki</h2>
-				<p><strong>Nezavisiosti Ave-10</strong>, Bobruyskaya str.6, shop-center "Galileo"</p>
+				<p><strong><a href="https://maps.google.com/maps?ll=53.896623,27.551844">Nezavisimosti Ave-10</a></strong>, 
+					<strong><a href="https://maps.google.com/maps?ll=53.890386,27.553679">Bobruyskaya str.6</a></strong> at shop-center "Galileo"</p>
 				<p>National cuisine.</p>
 				<p>Working hours: open from M-Su 8 am-11pm</p>
 			</li>
 			<li>
+				<img src="img/thumb_francisk.jpg" class="listthumb">
 				<h2>U Frantsiska</h2>
+				<p><strong><a href="https://maps.google.com/maps?ll=53.899882,27.556801">Nezavisimost 19</a></strong></p>
 				<p>Traditional Belarusian dishes.</p>
 				<p>Working hours: open from M-Su 12am-11pm</p>
 			</li>
 			<li>
+				<img src="img/thumb_kamyanitsa.jpg" class="listthumb">
 				<h2>Kamyanitsa</h2>
-				<p><strong>Pervomayskaya street, 18</strong></p>
+				<p><strong><a href="https://maps.google.com/maps?ll=53.900211,27.574772">Pervomayskaya street, 18</a></strong></p>
 				<p>Belarusian, Lithuanian and Polish dishes, live music</p>
 				<p>Working hours: open from M-Su 12am-11pm.</p>
 			</li>
 			<li>
+				<img src="img/thumb_grunvald.jpg" class="listthumb">
 				<h2>Grunwald</h2>
-				<p><strong>Karl Marxa street, 19</strong></p>
+				<p><strong><a href="https://maps.google.com/maps?ll=53.896705,27.554618">Karl Marxa street, 19</a></strong></p>
 				<p>National and European cuisine</p>
 				<p>Working hours: open from M-Su 10am-11pm.</p>
 			</li>
 		</ul>
 	</section>
+	<footer></footer>
 </div>
 
 
 <div data-role="page" id="bringing">
-	<header data-role="header"><h1>What is worth bringing from Minsk</h1></header>
+	<header data-role="header">
+		<a href="#" data-rel="back" data-icon="home" data-iconpos="notext">home</a>
+		<h1>What is worth bringing from Minsk</h1></header>
 	<section data-role="content">
-		<ol>
+		<ol class="justtext">
 			<li>Belarussian marshmallow</li>
 			<li>Cranberries in sugar</li>
 			<li>Linen wear</li>
@@ -144,10 +164,13 @@
 			<li>Great expreriences</li>
 		</ol>
 	</section>
+	<footer></footer>
 </div>
 
 <div data-role="page" id="phrasebook">
-	<header data-role="header"><h1>Mini-phrasebook</h1></header>
+	<header data-role="header">
+		<a href="#" data-rel="back" data-icon="home" data-iconpos="notext">home</a>
+		<h1>Mini-phrasebook</h1></header>
 	<section data-role="content">
 		<div class="ui-grid-b">
 			<div class="ui-block-a">Yes/No</div>
@@ -185,57 +208,70 @@
 			<div class="ui-block-c">Vyhod</div>
 		</div>
 	</section>
+	<footer></footer>
 </div>
 
-<div data-role="page" id="info">
-	<header data-role="header"><h1>Useful information</h1></header>
-	<section data-role="content">Taxi services (phone number)<br>
-		135, 152, 158, 7778<br>
-		+375 29 391-1911<br>
-		+375 29 111-1158<br>
-		+375 29 777-7157
+<div data-role="page" id="taxi">
+	<header data-role="header">
+		<a href="#" data-rel="back" data-icon="home" data-iconpos="notext">home</a>
+		<h1>Taxi service</h1></header>
+	<section data-role="content">
+		<h3>phones:</h3>
+		<ul class="justtext">
+			<li>135, 152, 158, 7778</li>
+			<li><a href="tel:+375 29 391-1911">+375 29 391-1911</a></li>
+			<li><a href="tel:+375 29 111-1158">+375 29 111-1158</a></li>
+			<li><a href="tel:">+375 29 777-7157</a></li>
+		</ul>
 	</section>
+	<footer></footer>
 </div>
 
 
 <div data-role="page" id="hotels">
-	<header data-role="header"><h1>Hotels</h1></header>
+	<header data-role="header">
+		<a href="#" data-rel="back" data-icon="home" data-iconpos="notext">home</a>
+		<h1>Hotels</h1></header>
 	<section data-role="content">
 		<ul data-role="listview" data-split-icon="gear">
 			<li>
 				<h2>Garni</h2>
-
-				<p><strong>Internatsyonalnaya str.11</strong></p>
-
-				<p>Reception: +375 17 229-7600</p>
+				<p><strong><a href="https://maps.google.com/maps?ll=53.901709,27.553647">Internatsyonalnaya str.11</a></strong></p>
+				<p>Reception: <a href="tel:+375 17 229-7600">+375 17 229-7600</a></p>
 			</li>
 			<li>
 				<h2>Minsk</h2>
-
-				<p><strong>Nezavisiosti Ave-11</strong></p>
-
-				<p>Reception: +375 17 209-90 62/75/78/80</p>
+				<p><strong><a href="https://maps.google.com/maps?ll=53.897043,27.550782">Nezavisiosti Ave-11</a></strong></p>
+				<p>Reception: <a href="tel:+375 17 209-9062">+375 17 209-9062</a></p>
 			</li>
 		</ul>
 	</section>
+	<footer></footer>
 </div>
 
 
-<div data-role="page" id="belbiz">
+<div data-role="page" id="about">
 	<header data-role="header">
+		<a href="#" data-rel="back" data-icon="home" data-iconpos="notext">home</a>
 		<h1>BEL.BIZ team's contacts</h1></header>
 	<section data-role="content">
-		<p>Address: Fabritsiusa 4<br>
-			Office phone: +375 29 118-9989<br>
-			Email: info@bel.biz</p>
+		<ul class="justtext">
+			<li>Address: <strong><a href="https://maps.google.com/maps?ll=53.889393,27.536588">Fabritsiusa 4</a></strong></li>
+			<li>Office phone: <a href="tel:+375 29 118-9989">+375 29 118-9989</a></li>
+			<li>Email: <a href="mailto:info@bel.biz">info@bel.biz</a></li>
+		</ul>
 
-		<p>Tania Marinich: +375 29 659-2262<br>
-			Nastia Khamenkova +375 29-25121<br>
-			Ksenia Maximova +375 25 998-2622<br>
-			Daria Reutovich +375 29
-			<br>
-		</p>
+		<ul class="justtext">
+			<li>Tania Marinich: +375 29 659-2262</li>
+			<li>Nastia Khamenkova +375 29-25121</li>
+			<li>Ksenia Maximova +375 25 998-2622</li>
+			<li>Daria Reutovich </li>
+		</ul>
+		<ul class="justtext">
+			<li>app author: <a href="mailto:vasilychapaev@gmail.com">vasilychapaev@gmail.com</a></li>
+		</ul>
 	</section>
+	<footer></footer>
 </div>
 
 

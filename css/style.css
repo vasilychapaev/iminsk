@@ -1,6 +1,23 @@
+
+/* bg images on page */
+footer{
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: 100%;}
+#home footer   {background-image: url(../img/bg_home.jpg) !important;}
+#advise footer   {background-image: url(../img/bg_advise.jpg) !important;}
+#shopping footer {background-image: url(../img/bg_shop.jpg) !important;}
+#cafes footer {background-image: url(../img/bg_cafe.jpg) !important;}
+#bringing footer {background-image: url(../img/bg_bring.jpg) !important;}
+#phrasebook footer {background-image: url(../img/bg_book.jpg) !important;}
+#taxi footer {background-image: url(../img/bg_taxi.jpg) !important;}
+#hotels footer {background-image: url(../img/bg_hotel.jpg) !important;}
+#about footer {background-image: url(../img/bg_imaguru.jpg) !important;}
+
+
+
 /* table pseudo */
 .ui-block-a, .ui-block-b, .ui-block-c {
-	/*background-color: #eee;*/
 	border-top: 1px solid lightgray;
 	margin-top: 10px;
 	padding-top: 10px;}
@@ -8,23 +25,18 @@
 
 
 
+/* list line-space more */
+.justtext li {line-height: 2em;}
 
-
-.ui-page, .ui-content, .ui-btn {
-	/*opacity: 0.5;*/
-	background-color: transparent !important;
+/* thumb to right, disable jqm behavior */
+img.listthumb {
+	padding: 20px 10px 0 10px;
+	right: 0;
 }
+.ui-listview > li.ui-first-child img:first-child {left: auto;}
+.ui-listview .ui-li-has-thumb > img:first-child {left: auto;}
+.ui-listview > .ui-li-static.ui-li-has-thumb {padding-left: 1em; padding-right: 6.25em; }
 
-
-#home {
-    background-image: url(../img/hotel_minsk.jpg);
-	background-size: contain;
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-}
-#cafes {
-    background-image: url(../img/cafe_batleika.jpg) !important;
-    background-position: right bottom;
-    background-repeat: no-repeat;
-}
+/* jqmobile default wrap-none - fix*/
+/* BUG - need stay at last position - else broke other rules*/
+.ui-listview > li p {white-space : normal;}​

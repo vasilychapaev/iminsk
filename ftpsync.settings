@@ -20,7 +20,7 @@
 		// "overwrite_newer_prevention": true,
 		// "default_folder_permissions": "755",
 		// "default_upload_permissions": null, // null = no action taken
-		// "time_offset": 0, // [seconds]
+		// "time_offset": 360, // [seconds]
 		// "always_sync_local_permissions": true,
 
 		// Value "auto" = use UTF-8 if availible (FEAT: UTF8), otherwise use local
