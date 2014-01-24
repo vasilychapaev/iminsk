@@ -2,8 +2,8 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "by.e95.minsk"
-        versionCode = "1" 
-        version     = "20140118" >
+        versionCode = "2" 
+        version     = "20140124" >
 
 	    <name>Minsk guide Bel.biz</name>
 	    <description>
@@ -43,6 +43,6 @@ The application discloses this topics:
 	    <gap:splash src="img/splash_640x960.png" />
 	    	    
 	    <gap:platform name="android" />
-	    	    
+
 
 	</widget>
